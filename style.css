@@ -1,0 +1,13 @@
+.image-border {
+    display: flex; /* Use flexbox to align images */
+    justify-content: space-between; /* Distribute space between the images */
+    align-items: center; /* Align images vertically if needed */
+    width: 100%; /* Ensure the container spans the entire width */
+    padding: 20px; /* Add some padding */
+}
+
+.image-border img {
+    width: 45%; /* Make each image take up about 45% of the container width */
+    height: auto; /* Maintain the aspect ratio */
+    border: 4px solid black; /* Add a border if needed */
+}
